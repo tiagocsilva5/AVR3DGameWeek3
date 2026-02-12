@@ -66,8 +66,10 @@
   <ItemGroup>
     <Compile Include="Assets\Week 3\Island\Scripts\FixedTiling.cs" />
     <Compile Include="Assets\Week 4\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Week 5\Scripts\CameraController.cs" />
     <Compile Include="Assets\Week 3\Island\Scripts\WaterScroller.cs" />
     <Compile Include="Assets\Week 4\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Week 5\Scripts\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Week 3\Island\Readme FIRST!.txt" />

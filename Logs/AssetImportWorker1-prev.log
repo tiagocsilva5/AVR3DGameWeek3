@@ -15,7 +15,7 @@ C:/Users/tiago_qr6vbzw/OneDrive/Documentos/GitHub/AVR402-3DGame/AVR3DGameWeek3
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51096
+56535
 Successfully changed project path to: C:/Users/tiago_qr6vbzw/OneDrive/Documentos/GitHub/AVR402-3DGame/AVR3DGameWeek3
 C:/Users/tiago_qr6vbzw/OneDrive/Documentos/GitHub/AVR402-3DGame/AVR3DGameWeek3
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,23 +49,23 @@ C:/Users/tiago_qr6vbzw/OneDrive/Documentos/GitHub/AVR402-3DGame/AVR3DGameWeek3
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27496]  Target information:
+Player connection [47208]  Target information:
 
-Player connection [27496]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 598562710 [EditorId] 598562710 [Version] 1048832 [Id] WindowsEditor(7,Acer_TiagoS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [47208]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 495626154 [EditorId] 495626154 [Version] 1048832 [Id] WindowsEditor(7,Acer_TiagoS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [27496]  * "[IP] 192.168.126.1 [Port] 0 [Flags] 2 [Guid] 598562710 [EditorId] 598562710 [Version] 1048832 [Id] WindowsEditor(7,Acer_TiagoS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [47208]  * "[IP] 192.168.126.1 [Port] 0 [Flags] 2 [Guid] 495626154 [EditorId] 495626154 [Version] 1048832 [Id] WindowsEditor(7,Acer_TiagoS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [27496]  * "[IP] 192.168.2.1 [Port] 0 [Flags] 2 [Guid] 598562710 [EditorId] 598562710 [Version] 1048832 [Id] WindowsEditor(7,Acer_TiagoS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [47208]  * "[IP] 192.168.2.1 [Port] 0 [Flags] 2 [Guid] 495626154 [EditorId] 495626154 [Version] 1048832 [Id] WindowsEditor(7,Acer_TiagoS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [27496]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 598562710 [EditorId] 598562710 [Version] 1048832 [Id] WindowsEditor(7,Acer_TiagoS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [47208]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 495626154 [EditorId] 495626154 [Version] 1048832 [Id] WindowsEditor(7,Acer_TiagoS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [27496]  * "[IP] 192.168.0.180 [Port] 0 [Flags] 2 [Guid] 598562710 [EditorId] 598562710 [Version] 1048832 [Id] WindowsEditor(7,Acer_TiagoS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [47208]  * "[IP] 192.168.0.180 [Port] 0 [Flags] 2 [Guid] 495626154 [EditorId] 495626154 [Version] 1048832 [Id] WindowsEditor(7,Acer_TiagoS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [27496] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [27496] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [47208] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [47208] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-Refreshing native plugins compatible for Editor in 31.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 38.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.62f1 (4af31df58517)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Resources/UnitySubsystems
@@ -81,43 +81,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.020647 seconds.
-- Loaded All Assemblies, in  0.408 seconds
+Registered in 0.019809 seconds.
+- Loaded All Assemblies, in  0.451 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.205 seconds
-Domain Reload Profiling: 606ms
-	BeginReloadAssembly (177ms)
+- Finished resetting the current domain, in  0.210 seconds
+Domain Reload Profiling: 653ms
+	BeginReloadAssembly (217ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (27ms)
+	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (110ms)
-		LoadAssemblies (171ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (120ms)
+		LoadAssemblies (211ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (109ms)
-			TypeCache.Refresh (108ms)
-				TypeCache.ScanAssembly (95ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (105ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (205ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (210ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (169ms)
+		SetupLoadedEditorAssemblies (175ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (12ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadAttributes (117ms)
 			ProcessInitializeOnLoadMethodAttributes (38ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -127,50 +127,50 @@ Domain Reload Profiling: 606ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.002 seconds
+- Loaded All Assemblies, in  0.800 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.754 seconds
-Domain Reload Profiling: 1741ms
-	BeginReloadAssembly (252ms)
+- Finished resetting the current domain, in  0.660 seconds
+Domain Reload Profiling: 1451ms
+	BeginReloadAssembly (157ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (83ms)
-	LoadAllAssembliesAndSetupDomain (597ms)
-		LoadAssemblies (611ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (550ms)
+		LoadAssemblies (527ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (156ms)
-			TypeCache.Refresh (134ms)
-				TypeCache.ScanAssembly (123ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (113ms)
+				TypeCache.ScanAssembly (103ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (755ms)
+	FinalizeReload (660ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (633ms)
+		SetupLoadedEditorAssemblies (563ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (498ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (451ms)
 			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (20ms)
+			AfterProcessingInitializeOnLoad (18ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 10.44 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 7.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3281 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (54.6 KB). Loaded Objects now: 3748.
-Memory consumption went from 122.9 MB to 122.9 MB.
-Total: 4.174900 ms (FindLiveObjects: 0.188400 ms CreateObjectMapping: 0.089500 ms MarkObjects: 3.793100 ms  DeleteObjects: 0.102400 ms)
+Unloading 19 unused Assets / (54.5 KB). Loaded Objects now: 3748.
+Memory consumption went from 123.0 MB to 122.9 MB.
+Total: 3.396200 ms (FindLiveObjects: 0.181400 ms CreateObjectMapping: 0.080600 ms MarkObjects: 3.054700 ms  DeleteObjects: 0.077800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,62 +187,52 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 143099.264067 seconds.
-  path: Assets/Poliigon_BrickWallReclaimed_8320_Displacement.tiff
-  artifactKey: Guid(7e69ed15d7dea4842a0df5c6b342821c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poliigon_BrickWallReclaimed_8320_Displacement.tiff using Guid(7e69ed15d7dea4842a0df5c6b342821c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+  Time since last request: 145277.687560 seconds.
+  path: Assets/Week 4/Materials/WhiteLight 1.mat
+  artifactKey: Guid(93f143322dca51348af1c63508b64aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 4/Materials/WhiteLight 1.mat using Guid(93f143322dca51348af1c63508b64aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '30cceb3cb82f858f1e4d59a84d7c59d9') in 0.069096 seconds
+ -> (artifact id: '55246c83beeaeca8c6c92b14e85a0a0e') in 0.087380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 599.635449 seconds.
+  path: Assets/Week 3/Island/Textures/Materials/Waves.mat
+  artifactKey: Guid(ed8746259da0ea64480c7b02ce4c2135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 3/Island/Textures/Materials/Waves.mat using Guid(ed8746259da0ea64480c7b02ce4c2135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'eca7b154000c8bf7f41f3d753a62712d') in 0.037073 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 201.701123 seconds.
-  path: Assets/Poliigon_BrickWallReclaimed_8320_BaseColor.jpg
-  artifactKey: Guid(f2fbb92a20b46dc4bbf68ee676c6f30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poliigon_BrickWallReclaimed_8320_BaseColor.jpg using Guid(f2fbb92a20b46dc4bbf68ee676c6f30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+  Time since last request: 0.296221 seconds.
+  path: Assets/Week 3/Island/Textures/Materials/Coconut.mat
+  artifactKey: Guid(19bb134dc604ce84391339435adebd13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 3/Island/Textures/Materials/Coconut.mat using Guid(19bb134dc604ce84391339435adebd13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '295c50b5fb2a3f4a70813744caf0db43') in 0.013944 seconds
+ -> (artifact id: 'bd49f0fae92e9f77924cefa2546e35ab') in 0.167378 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.024506 seconds.
-  path: Assets/Poliigon_BrickWallReclaimed_8320_Roughness.jpg
-  artifactKey: Guid(87d9bf2a9b3c9964e8096ff6305ea6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poliigon_BrickWallReclaimed_8320_Roughness.jpg using Guid(87d9bf2a9b3c9964e8096ff6305ea6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Week 3/Island/Textures/Materials/Dock.mat
+  artifactKey: Guid(05c7197b9ae13794b80b8c01a0ed93ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 3/Island/Textures/Materials/Dock.mat using Guid(05c7197b9ae13794b80b8c01a0ed93ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: 'fb074482a0d556ca0b91bc4747abb5e6') in 0.013832 seconds
+ -> (artifact id: 'fa8ecced811c3ccfd91cceb23ea2f6bc') in 0.008039 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Poliigon_BrickWallReclaimed_8320_Metallic.jpg
-  artifactKey: Guid(1e96d5f803d8958498a44d84e6edc188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poliigon_BrickWallReclaimed_8320_Metallic.jpg using Guid(1e96d5f803d8958498a44d84e6edc188) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Week 3/Island/Textures/Materials/Chest.mat
+  artifactKey: Guid(29852d5c1b9149644b37193352393e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 3/Island/Textures/Materials/Chest.mat using Guid(29852d5c1b9149644b37193352393e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '4f3a234dff364e581fe897b2b6dcdfd8') in 0.012154 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 220.571646 seconds.
-  path: Assets/Poliigon_BrickWallReclaimed_8320_Displacement.tiff
-  artifactKey: Guid(7e69ed15d7dea4842a0df5c6b342821c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poliigon_BrickWallReclaimed_8320_Displacement.tiff using Guid(7e69ed15d7dea4842a0df5c6b342821c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: 'e1639db8e455fb3f68960326a58cb2da') in 0.019342 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.027184 seconds.
-  path: Assets/Poliigon_BrickWallReclaimed_8320_Roughness.jpg
-  artifactKey: Guid(87d9bf2a9b3c9964e8096ff6305ea6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poliigon_BrickWallReclaimed_8320_Roughness.jpg using Guid(87d9bf2a9b3c9964e8096ff6305ea6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: 'cc4a73ad7c747c72da4751f07618b5f3') in 0.022457 seconds
+ -> (artifact id: '45efbe9a3647badab17b79a726ec71e2') in 0.007987 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
