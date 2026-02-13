@@ -1,45 +1,76 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Movement")]
+    public float walkSpeed = 5f;
+    public float runSpeed = 8f;
+    public float jumpSpeed = 8f;
+    public float gravity = 20f;
+    public float rotationSpeed = 10f;
 
-    public float walkSpeed, runSpeed, gravity, jumpSpeed, turnSpeed;
+    [Header("References")]
+    public Transform cameraTransform;
 
+    private CharacterController controller;
+    private Vector2 input;
+    private float verticalVelocity;
 
-    CharacterController controller;
-    Vector2 input;
-    float vertVelo;
-
-
-    // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
-        vertVelo = 0f;
     }
 
-    // Update is called once per frame
     void Update()
     {
+        // ----- INPUT -----
         input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        Vector3 velo = (input.x * transform.right + input.y * transform.forward);
-        velo = velo.normalized;
-        velo *= Input.GetKey(KeyCode.LeftShift) ? runSpeed : walkSpeed;
+        input = Vector2.ClampMagnitude(input, 1f);
 
-        if(controller.isGrounded)
+        // ----- CAMERA RELATIVE MOVEMENT -----
+        Vector3 camForward = cameraTransform.forward;
+        Vector3 camRight = cameraTransform.right;
+
+        camForward.y = 0f;
+        camRight.y = 0f;
+
+        camForward.Normalize();
+        camRight.Normalize();
+
+        Vector3 moveDirection = camForward * input.y + camRight * input.x;
+
+        float currentSpeed = Input.GetKey(KeyCode.LeftShift) ? runSpeed : walkSpeed;
+
+        // ----- ROTATE PLAYER TOWARD MOVEMENT -----
+        if (moveDirection != Vector3.zero)
         {
-            vertVelo = Input.GetKeyDown(KeyCode.Space) ? jumpSpeed : -5f;
+            Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
+            transform.rotation = Quaternion.Slerp(
+                transform.rotation,
+                targetRotation,
+                rotationSpeed * Time.deltaTime
+            );
+        }
+
+        // ----- GRAVITY & JUMP -----
+        if (controller.isGrounded)
+        {
+            if (verticalVelocity < 0)
+                verticalVelocity = -2f; // small downward force to keep grounded
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                verticalVelocity = jumpSpeed;
+            }
         }
         else
         {
-            vertVelo -= gravity * Time.deltaTime;
+            verticalVelocity -= gravity * Time.deltaTime;
         }
-        velo += vertVelo * Vector3.up;
-        controller.Move(velo * Time.deltaTime);
 
-        //Player rotation
-        transform.Rotate(Vector3.up * turnSpeed * Input.GetAxis("Mouse X") * Time.deltaTime);
+        Vector3 finalMove = moveDirection * currentSpeed;
+        finalMove.y = verticalVelocity;
+
+        controller.Move(finalMove * Time.deltaTime);
     }
 }
