@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -72,5 +73,15 @@ public class PlayerController : MonoBehaviour
         finalMove.y = verticalVelocity;
 
         controller.Move(finalMove * Time.deltaTime);
+    }
+
+        // ----- TRIGGER DETECTION -----
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Goal"))
+        {
+            // Load the specific scene "Scene_2"
+            SceneManager.LoadScene("Scene_2");
+        }
     }
 }

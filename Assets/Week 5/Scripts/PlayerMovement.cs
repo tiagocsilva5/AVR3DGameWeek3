@@ -1,54 +1,118 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 5f;
-    public float jumpForce = 5f;
-    public Rigidbody rb;
+    [Header("Movement")]
+    public float speed = 6f;
+    public float jumpHeight = 2f;
+    public float gravity = -9.81f;
+    public float rotationSpeed = 10f;
+
+    [Header("References")]
     public Transform cameraTransform;
 
-    private Vector3 moveDirection;
+    private CharacterController controller;
+    private Animator animator;
+
+    private Vector3 velocity;
     private bool isGrounded;
 
     void Start()
     {
-        if(rb == null)
-            rb = GetComponent<Rigidbody>();
+        controller = GetComponent<CharacterController>();
+        animator = GetComponentInChildren<Animator>();
+
+        Debug.Log(animator);
+        
+        // Auto-assign camera if not set in Inspector
+        if (cameraTransform == null && Camera.main != null)
+            cameraTransform = Camera.main.transform;
+
+        // Start in Idle
+        animator.SetFloat("State", 0f);
     }
 
-    void FixedUpdate()
+    void Update()
     {
-        // --- Camera-relative movement ---
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+        // GROUND CHECK
+        isGrounded = controller.isGrounded;
 
-        Vector3 forward = cameraTransform.forward;
-        Vector3 right = cameraTransform.right;
-
-        forward.y = 0;
-        right.y = 0;
-        forward.Normalize();
-        right.Normalize();
-
-        moveDirection = forward * vertical + right * horizontal;
-
-        rb.AddForce(moveDirection * speed, ForceMode.Force);
-
-        // --- Jump ---
-        if(Input.GetButton("Jump") && isGrounded)
+        if (isGrounded && velocity.y < 0)
         {
-            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-            isGrounded = false; // Prevent double jump
+            velocity.y = -2f;
         }
+
+        // INPUT
+        float x = Input.GetAxis("Horizontal");
+        float z = Input.GetAxis("Vertical");
+
+        // CAMERA RELATIVE MOVEMENT
+        Vector3 move = Vector3.zero;
+
+        if (cameraTransform != null)
+        {
+            Vector3 forward = cameraTransform.forward;
+            Vector3 right = cameraTransform.right;
+
+            forward.y = 0f;
+            right.y = 0f;
+
+            forward.Normalize();
+            right.Normalize();
+
+            move = forward * z + right * x;
+        }
+        else
+        {
+            // Fallback movement if no camera
+            move = new Vector3(x, 0f, z);
+        }
+
+        move.Normalize(); 
+
+        float moveAmount = new Vector2(x, z).magnitude;
+
+        // ANIMATION
+        if (moveAmount > 0.1f)
+        {
+            animator.SetFloat("State", 1f); // Running
+        }
+        else
+        {
+            animator.SetFloat("State", 0f); // Idle
+        }
+
+        // MOVE PLAYER
+        controller.Move(move * speed * Time.deltaTime);
+
+        // ROTATION
+        if (moveAmount > 0.1f)
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(move);
+            transform.rotation = Quaternion.Slerp(
+                transform.rotation,
+                targetRotation,
+                rotationSpeed * Time.deltaTime
+            );
+        }
+
+        // JUMP
+        if (Input.GetButtonDown("Jump") && isGrounded)
+        {
+            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+        }
+
+        // GRAVITY
+        velocity.y += gravity * Time.deltaTime;
+        controller.Move(velocity * Time.deltaTime);
     }
 
-    // --- Ground Check ---
-    void OnCollisionStay(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        // Consider player grounded if touching floor
-        if(collision.gameObject.CompareTag("Ground"))
+        if (other.CompareTag("Goal"))
         {
-            isGrounded = true;
+        SceneManager.LoadScene("Scene_2");
         }
     }
 }
