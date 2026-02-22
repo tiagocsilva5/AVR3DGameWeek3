@@ -6482,6 +6482,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2029061382}
+    - target: {fileID: 3663619522229166750, guid: ef86a9687198ea540a9f98225ab98c10, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: de4525ad0011e70459fded177965e46b, type: 2}
     - target: {fileID: 5259838160253585114, guid: ef86a9687198ea540a9f98225ab98c10, type: 3}
       propertyPath: m_Name
       value: AI Enemy
@@ -15237,7 +15241,7 @@ PrefabInstance:
     - target: {fileID: 1003745341244223651, guid: 81669147ab05b5148bfd52545cf9b00f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2396866110408635876, guid: dc88dccfb48bfb240b9202d33198a1ee, type: 3}
+      objectReference: {fileID: 2100000, guid: 0b85328fb53cfc24089121a0c612065a, type: 2}
     - target: {fileID: 4027737473684939953, guid: 81669147ab05b5148bfd52545cf9b00f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 23.08
