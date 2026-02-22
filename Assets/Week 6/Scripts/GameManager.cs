@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     [Header("Start Scene")]
-    public string startScene = "Scene_1"; // Set the first scene
+    public string startScene = "Scene_1"; 
 
     void Awake()
     {

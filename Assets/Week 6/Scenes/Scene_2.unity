@@ -15177,17 +15177,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1003745341244223651, guid: 81669147ab05b5148bfd52545cf9b00f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2396866110408635876, guid: dc88dccfb48bfb240b9202d33198a1ee, type: 3}
     - target: {fileID: 4027737473684939953, guid: 81669147ab05b5148bfd52545cf9b00f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 23.08
       objectReference: {fileID: 0}
     - target: {fileID: 4027737473684939953, guid: 81669147ab05b5148bfd52545cf9b00f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 1.47
       objectReference: {fileID: 0}
     - target: {fileID: 4027737473684939953, guid: 81669147ab05b5148bfd52545cf9b00f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -17.64
+      value: -15.61
       objectReference: {fileID: 0}
     - target: {fileID: 4027737473684939953, guid: 81669147ab05b5148bfd52545cf9b00f, type: 3}
       propertyPath: m_LocalRotation.w
