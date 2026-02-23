@@ -1,19 +1,71 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    [Header("Start Scene")]
-    public string startScene = "Scene_1"; 
+    public static GameManager Instance;
+
+    public string startScene = "Scene_1";
+    public string loadScene = "Scene_2";
+
+    [Header("UI")]
+    public GameObject blackScreen;
+    public TMP_Text messageText;
+    public float transitionDuration = 5f;
 
     void Awake()
     {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
         DontDestroyOnLoad(gameObject);
 
-        // If the current scene is not the start scene, load it
-        if (SceneManager.GetActiveScene().name != startScene)
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // Automatically find UI in the new scene
+        blackScreen = GameObject.Find("FadeScreen");
+
+        if (blackScreen != null)
         {
-            SceneManager.LoadScene(startScene);
+            messageText = blackScreen.GetComponentInChildren<TMP_Text>();
+            blackScreen.SetActive(false);
         }
+    }
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene(startScene);
+    }
+
+    public void PlayerReachedGoal(string message, string loadScene)
+    {
+        StartCoroutine(TransitionToLoadScene(message, loadScene));
+    }
+
+    IEnumerator TransitionToLoadScene(string message, string loadScene)
+    {
+        if (blackScreen != null)
+        {
+            blackScreen.SetActive(true);
+            messageText.text = message;
+        }
+
+        yield return new WaitForSeconds(transitionDuration);
+
+        SceneManager.LoadScene(loadScene);
+
+        yield return null;
+
+        if (blackScreen != null)
+            blackScreen.SetActive(false);
     }
 }

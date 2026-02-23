@@ -15,7 +15,7 @@ C:/Users/tiago_qr6vbzw/OneDrive/Documentos/GitHub/AVR402-3DGame/AVR3DGameWeek3
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-65317
+55303
 Successfully changed project path to: C:/Users/tiago_qr6vbzw/OneDrive/Documentos/GitHub/AVR402-3DGame/AVR3DGameWeek3
 C:/Users/tiago_qr6vbzw/OneDrive/Documentos/GitHub/AVR402-3DGame/AVR3DGameWeek3
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,23 +49,23 @@ C:/Users/tiago_qr6vbzw/OneDrive/Documentos/GitHub/AVR402-3DGame/AVR3DGameWeek3
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15576]  Target information:
+Player connection [48528]  Target information:
 
-Player connection [15576]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1260414017 [EditorId] 1260414017 [Version] 1048832 [Id] WindowsEditor(7,Acer_TiagoS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [48528]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3671680463 [EditorId] 3671680463 [Version] 1048832 [Id] WindowsEditor(7,Acer_TiagoS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15576]  * "[IP] 192.168.126.1 [Port] 0 [Flags] 2 [Guid] 1260414017 [EditorId] 1260414017 [Version] 1048832 [Id] WindowsEditor(7,Acer_TiagoS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [48528]  * "[IP] 192.168.126.1 [Port] 0 [Flags] 2 [Guid] 3671680463 [EditorId] 3671680463 [Version] 1048832 [Id] WindowsEditor(7,Acer_TiagoS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15576]  * "[IP] 192.168.2.1 [Port] 0 [Flags] 2 [Guid] 1260414017 [EditorId] 1260414017 [Version] 1048832 [Id] WindowsEditor(7,Acer_TiagoS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [48528]  * "[IP] 192.168.2.1 [Port] 0 [Flags] 2 [Guid] 3671680463 [EditorId] 3671680463 [Version] 1048832 [Id] WindowsEditor(7,Acer_TiagoS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15576]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 1260414017 [EditorId] 1260414017 [Version] 1048832 [Id] WindowsEditor(7,Acer_TiagoS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [48528]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 3671680463 [EditorId] 3671680463 [Version] 1048832 [Id] WindowsEditor(7,Acer_TiagoS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15576]  * "[IP] 192.168.0.180 [Port] 0 [Flags] 2 [Guid] 1260414017 [EditorId] 1260414017 [Version] 1048832 [Id] WindowsEditor(7,Acer_TiagoS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [48528]  * "[IP] 192.168.0.180 [Port] 0 [Flags] 2 [Guid] 3671680463 [EditorId] 3671680463 [Version] 1048832 [Id] WindowsEditor(7,Acer_TiagoS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15576] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [15576] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [48528] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [48528] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-Refreshing native plugins compatible for Editor in 12.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 17.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.62f3 (96770f904ca7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
@@ -81,44 +81,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015702 seconds.
-- Loaded All Assemblies, in  0.386 seconds
+Registered in 0.044883 seconds.
+- Loaded All Assemblies, in  1.141 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.245 seconds
-Domain Reload Profiling: 627ms
-	BeginReloadAssembly (137ms)
+- Finished resetting the current domain, in  0.244 seconds
+Domain Reload Profiling: 1356ms
+	BeginReloadAssembly (660ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (77ms)
-	LoadAllAssembliesAndSetupDomain (129ms)
-		LoadAssemblies (128ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (191ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (634ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (127ms)
-			TypeCache.Refresh (126ms)
-				TypeCache.ScanAssembly (114ms)
+		AnalyzeDomain (204ms)
+			TypeCache.Refresh (202ms)
+				TypeCache.ScanAssembly (188ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (246ms)
+	FinalizeReload (245ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (203ms)
+		SetupLoadedEditorAssemblies (202ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (138ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -127,50 +127,50 @@ Domain Reload Profiling: 627ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.782 seconds
+- Loaded All Assemblies, in  2.032 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.731 seconds
-Domain Reload Profiling: 1502ms
-	BeginReloadAssembly (187ms)
+- Finished resetting the current domain, in  2.200 seconds
+Domain Reload Profiling: 4213ms
+	BeginReloadAssembly (409ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (488ms)
-		LoadAssemblies (439ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (1509ms)
+		LoadAssemblies (1602ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (171ms)
-			TypeCache.Refresh (150ms)
-				TypeCache.ScanAssembly (134ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (732ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (214ms)
+				TypeCache.ScanAssembly (197ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2200ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (602ms)
+		SetupLoadedEditorAssemblies (1995ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
+			InitializePlatformSupportModulesInManaged (17ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (478ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (18ms)
+			BeforeProcessingInitializeOnLoad (166ms)
+			ProcessInitializeOnLoadAttributes (1724ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (61ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 12.52 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 57.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3334 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (27.1 KB). Loaded Objects now: 3825.
-Memory consumption went from 135.0 MB to 135.0 MB.
-Total: 6.050000 ms (FindLiveObjects: 0.462700 ms CreateObjectMapping: 0.340300 ms MarkObjects: 5.146300 ms  DeleteObjects: 0.099100 ms)
+Unloading 18 unused Assets / (27.2 KB). Loaded Objects now: 3825.
+Memory consumption went from 134.8 MB to 134.8 MB.
+Total: 9.154600 ms (FindLiveObjects: 0.207000 ms CreateObjectMapping: 0.090500 ms MarkObjects: 8.784100 ms  DeleteObjects: 0.071700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,340 +187,75 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 335593.598969 seconds.
-  path: Assets/Week 6/Animations/Materials/Ch44_1002_Diffuse.mat
-  artifactKey: Guid(6517d855f000c5b4eba55cad837eba9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Animations/Materials/Ch44_1002_Diffuse.mat using Guid(6517d855f000c5b4eba55cad837eba9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+  Time since last request: 364776.132132 seconds.
+  path: Assets/Week 7/Scenes/Scene_1/Lightmap-4_comp_light.exr
+  artifactKey: Guid(b822e5e1dce7d9749af0a3a5af24bfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 7/Scenes/Scene_1/Lightmap-4_comp_light.exr using Guid(b822e5e1dce7d9749af0a3a5af24bfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: 'f52e9df3fe92e24466b9c0ee0b51827e') in 0.163760 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 2.406667 seconds.
-  path: Assets/Week 6/Prefabs/Player.prefab
-  artifactKey: Guid(81669147ab05b5148bfd52545cf9b00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Prefabs/Player.prefab using Guid(81669147ab05b5148bfd52545cf9b00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '7ceb324c964a9929e16d0ba74b48c053') in 0.089413 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 294
-========================================================================
-Received Import Request.
-  Time since last request: 26.309283 seconds.
-  path: Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1001_Emissive.png
-  artifactKey: Guid(69a98c070eac52a469c0383425f5a88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1001_Emissive.png using Guid(69a98c070eac52a469c0383425f5a88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '00000000000000000000000000000000') in 0.062747 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1001_emissive.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1052604Z' while content on disk has modification time of '2026-02-22T18:56:02.4150881Z'
-  ERROR: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1001_emissive.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1052604Z' while content on disk has modification time of '2026-02-22T18:56:02.4150881Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.054371 seconds.
-  path: Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Diffuse.png
-  artifactKey: Guid(4376ef94ff7945447861efd9e1137d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Diffuse.png using Guid(4376ef94ff7945447861efd9e1137d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '00000000000000000000000000000000') in 0.022528 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_diffuse.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.0840342Z' while content on disk has modification time of '2026-02-22T18:56:02.4022229Z'
-  ERROR: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_diffuse.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.0840342Z' while content on disk has modification time of '2026-02-22T18:56:02.4022229Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Normal.png
-  artifactKey: Guid(2323d742614984c4287afe7ea82b6ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Normal.png using Guid(2323d742614984c4287afe7ea82b6ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '2dd7756e5f7e9be1580faa96905e30af') in 0.023959 seconds
+ -> (artifact id: 'e58b63d69f5177cb78c1fd7bf3c9d197') in 0.279603 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.044576 seconds.
-  path: Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1001_Specular.png
-  artifactKey: Guid(ab0431c48aa70c74fb76988288160e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1001_Specular.png using Guid(ab0431c48aa70c74fb76988288160e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Week 7/Scenes/Scene_2/Lightmap-4_comp_light.exr
+  artifactKey: Guid(002664a8e74607d4f945f28d88b7ee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 7/Scenes/Scene_2/Lightmap-4_comp_light.exr using Guid(002664a8e74607d4f945f28d88b7ee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '00000000000000000000000000000000') in 0.013298 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1001_specular.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1228746Z' while content on disk has modification time of '2026-02-22T18:56:02.4219929Z'
-  ERROR: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1001_specular.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1228746Z' while content on disk has modification time of '2026-02-22T18:56:02.4219929Z'
+ -> (artifact id: 'fb55edd46b57381ac6cc4461497f0997') in 0.022508 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Diffuse.png
-  artifactKey: Guid(4376ef94ff7945447861efd9e1137d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Diffuse.png using Guid(4376ef94ff7945447861efd9e1137d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Week 7/Scenes/Scene_1/Lightmap-9_comp_light.exr
+  artifactKey: Guid(e83aec46f1d8211418cf81c989582b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 7/Scenes/Scene_1/Lightmap-9_comp_light.exr using Guid(e83aec46f1d8211418cf81c989582b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '00000000000000000000000000000000') in 0.009980 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_diffuse.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.0840342Z' while content on disk has modification time of '2026-02-22T18:56:02.4022229Z'
-  ERROR: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_diffuse.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.0840342Z' while content on disk has modification time of '2026-02-22T18:56:02.4022229Z'
+ -> (artifact id: 'e1d81cbfde5983537cc150dc9c7b0a71') in 0.022668 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1001_Emissive.png
-  artifactKey: Guid(69a98c070eac52a469c0383425f5a88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1001_Emissive.png using Guid(69a98c070eac52a469c0383425f5a88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '00000000000000000000000000000000') in 0.009134 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1001_emissive.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1052604Z' while content on disk has modification time of '2026-02-22T18:56:02.4150881Z'
-  ERROR: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1001_emissive.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1052604Z' while content on disk has modification time of '2026-02-22T18:56:02.4150881Z'
+  Time since last request: 0.000037 seconds.
+  path: Assets/Week 7/Scenes/Scene_2/LightingData.asset
+  artifactKey: Guid(8dc43076c3ae1cd46864c75c4778e130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 7/Scenes/Scene_2/LightingData.asset using Guid(8dc43076c3ae1cd46864c75c4778e130) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7fbf07c1cebbd36dd2a16bebd3bddab0') in 0.005326 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Glossiness.png
-  artifactKey: Guid(181880484eafe2d45bba0698eca948db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Glossiness.png using Guid(181880484eafe2d45bba0698eca948db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Week 7/Scenes/Scene_2/Lightmap-2_comp_light.exr
+  artifactKey: Guid(b79438a5cb95588459ef7218a45e92f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 7/Scenes/Scene_2/Lightmap-2_comp_light.exr using Guid(b79438a5cb95588459ef7218a45e92f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '00000000000000000000000000000000') in 0.015802 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_glossiness.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.136814Z' while content on disk has modification time of '2026-02-22T18:56:02.4261428Z'
-  ERROR: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_glossiness.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.136814Z' while content on disk has modification time of '2026-02-22T18:56:02.4261428Z'
+ -> (artifact id: '081d946353d735f93542383a96a73486') in 0.041064 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1001_Specular.png
-  artifactKey: Guid(ab0431c48aa70c74fb76988288160e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1001_Specular.png using Guid(ab0431c48aa70c74fb76988288160e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Week 7/Scenes/Scene_1/Lightmap-3_comp_light.exr
+  artifactKey: Guid(3112e25eef369e44790c686d37f009e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 7/Scenes/Scene_1/Lightmap-3_comp_light.exr using Guid(3112e25eef369e44790c686d37f009e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '00000000000000000000000000000000') in 0.009521 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1001_specular.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1228746Z' while content on disk has modification time of '2026-02-22T18:56:02.4219929Z'
-  ERROR: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1001_specular.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1228746Z' while content on disk has modification time of '2026-02-22T18:56:02.4219929Z'
+ -> (artifact id: '6d2dfbcf6b96117e0ffcb5342d270c32') in 0.031115 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Specular.png
-  artifactKey: Guid(7a58126800ecb5b458be3bc53634a5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Specular.png using Guid(7a58126800ecb5b458be3bc53634a5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Week 7/Scenes/Scene_1/Lightmap-11_comp_light.exr
+  artifactKey: Guid(798f6c69224184d439250f63f37417e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 7/Scenes/Scene_1/Lightmap-11_comp_light.exr using Guid(798f6c69224184d439250f63f37417e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '00000000000000000000000000000000') in 0.024627 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_specular.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1138834Z' while content on disk has modification time of '2026-02-22T18:56:02.4186992Z'
-  ERROR: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_specular.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1138834Z' while content on disk has modification time of '2026-02-22T18:56:02.4186992Z'
+ -> (artifact id: 'd5a2aeff10f6b89fff364af2744c1841') in 0.022147 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Diffuse.png
-  artifactKey: Guid(4376ef94ff7945447861efd9e1137d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Diffuse.png using Guid(4376ef94ff7945447861efd9e1137d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '00000000000000000000000000000000') in 0.009499 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_diffuse.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.0840342Z' while content on disk has modification time of '2026-02-22T18:56:02.4022229Z'
-  ERROR: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_diffuse.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.0840342Z' while content on disk has modification time of '2026-02-22T18:56:02.4022229Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1001_Emissive.png
-  artifactKey: Guid(69a98c070eac52a469c0383425f5a88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1001_Emissive.png using Guid(69a98c070eac52a469c0383425f5a88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '00000000000000000000000000000000') in 0.017070 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1001_emissive.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1052604Z' while content on disk has modification time of '2026-02-22T18:56:02.4150881Z'
-  ERROR: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1001_emissive.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1052604Z' while content on disk has modification time of '2026-02-22T18:56:02.4150881Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1001_Specular.png
-  artifactKey: Guid(ab0431c48aa70c74fb76988288160e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1001_Specular.png using Guid(ab0431c48aa70c74fb76988288160e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '00000000000000000000000000000000') in 0.010626 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1001_specular.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1228746Z' while content on disk has modification time of '2026-02-22T18:56:02.4219929Z'
-  ERROR: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1001_specular.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1228746Z' while content on disk has modification time of '2026-02-22T18:56:02.4219929Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Specular.png
-  artifactKey: Guid(7a58126800ecb5b458be3bc53634a5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Specular.png using Guid(7a58126800ecb5b458be3bc53634a5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '00000000000000000000000000000000') in 0.028098 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_specular.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1138834Z' while content on disk has modification time of '2026-02-22T18:56:02.4186992Z'
-  ERROR: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_specular.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1138834Z' while content on disk has modification time of '2026-02-22T18:56:02.4186992Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Diffuse.png
-  artifactKey: Guid(4376ef94ff7945447861efd9e1137d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Diffuse.png using Guid(4376ef94ff7945447861efd9e1137d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '00000000000000000000000000000000') in 0.012655 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_diffuse.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.0840342Z' while content on disk has modification time of '2026-02-22T18:56:02.4022229Z'
-  ERROR: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_diffuse.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.0840342Z' while content on disk has modification time of '2026-02-22T18:56:02.4022229Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1001_Glossiness.png
-  artifactKey: Guid(d973a7b0986e31a4db5e27ed7752dcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1001_Glossiness.png using Guid(d973a7b0986e31a4db5e27ed7752dcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '00000000000000000000000000000000') in 0.013842 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1001_glossiness.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1497419Z' while content on disk has modification time of '2026-02-22T18:56:02.4313867Z'
-  ERROR: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1001_glossiness.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1497419Z' while content on disk has modification time of '2026-02-22T18:56:02.4313867Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Diffuse.png
-  artifactKey: Guid(4376ef94ff7945447861efd9e1137d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Diffuse.png using Guid(4376ef94ff7945447861efd9e1137d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '00000000000000000000000000000000') in 0.014459 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_diffuse.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.0840342Z' while content on disk has modification time of '2026-02-22T18:56:02.4022229Z'
-  ERROR: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_diffuse.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.0840342Z' while content on disk has modification time of '2026-02-22T18:56:02.4022229Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Specular.png
-  artifactKey: Guid(7a58126800ecb5b458be3bc53634a5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Specular.png using Guid(7a58126800ecb5b458be3bc53634a5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '00000000000000000000000000000000') in 0.009298 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_specular.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1138834Z' while content on disk has modification time of '2026-02-22T18:56:02.4186992Z'
-  ERROR: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_specular.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1138834Z' while content on disk has modification time of '2026-02-22T18:56:02.4186992Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Diffuse.png
-  artifactKey: Guid(4376ef94ff7945447861efd9e1137d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Diffuse.png using Guid(4376ef94ff7945447861efd9e1137d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '00000000000000000000000000000000') in 0.012065 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_diffuse.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.0840342Z' while content on disk has modification time of '2026-02-22T18:56:02.4022229Z'
-  ERROR: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_diffuse.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.0840342Z' while content on disk has modification time of '2026-02-22T18:56:02.4022229Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1001_Emissive.png
-  artifactKey: Guid(69a98c070eac52a469c0383425f5a88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1001_Emissive.png using Guid(69a98c070eac52a469c0383425f5a88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '00000000000000000000000000000000') in 0.005295 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1001_emissive.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1052604Z' while content on disk has modification time of '2026-02-22T18:56:02.4150881Z'
-  ERROR: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1001_emissive.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.1052604Z' while content on disk has modification time of '2026-02-22T18:56:02.4150881Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Glossiness.png
-  artifactKey: Guid(181880484eafe2d45bba0698eca948db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Week 6/Animations/Ch44_nonPBR@Running.fbm/Ch44_1002_Glossiness.png using Guid(181880484eafe2d45bba0698eca948db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
- -> (artifact id: '00000000000000000000000000000000') in 0.006058 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_glossiness.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.136814Z' while content on disk has modification time of '2026-02-22T18:56:02.4261428Z'
-  ERROR: Build asset version error: assets/week 6/animations/ch44_nonpbr@running.fbm/ch44_1002_glossiness.png in SourceAssetDB has modification time of '2026-02-22T18:55:59.136814Z' while content on disk has modification time of '2026-02-22T18:56:02.4261428Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.730 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.532 seconds
-Domain Reload Profiling: 2244ms
-	BeginReloadAssembly (309ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (310ms)
-		LoadAssemblies (514ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1533ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (625ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (92ms)
-			ProcessInitializeOnLoadAttributes (469ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (26ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 12.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3326 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3876.
-Memory consumption went from 140.5 MB to 140.4 MB.
-Total: 5.996600 ms (FindLiveObjects: 0.339800 ms CreateObjectMapping: 0.221100 ms MarkObjects: 5.347200 ms  DeleteObjects: 0.086700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

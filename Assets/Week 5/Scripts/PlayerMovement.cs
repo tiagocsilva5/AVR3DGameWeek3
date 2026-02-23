@@ -110,9 +110,15 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Goal"))
-        {
-        SceneManager.LoadScene("Scene_2");
-        }
+    if (other.CompareTag("Goal"))
+    {
+        // Optional: stop player movement during transition
+        enabled = false;
+
+        GameManager.Instance.PlayerReachedGoal(
+            "You have escaped Level 1!\nLoading next level...",
+            GameManager.Instance.loadScene
+        );
+    }
     }
 }
