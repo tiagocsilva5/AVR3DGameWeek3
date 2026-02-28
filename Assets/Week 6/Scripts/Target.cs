@@ -35,4 +35,22 @@ public class Target : MonoBehaviour
         float speed = agent.velocity.magnitude;
         animator.SetFloat("State", speed);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            // Stop enemy movement
+            agent.isStopped = true;
+
+            PlayerMovement movement = other.GetComponent<PlayerMovement>();
+            if (movement != null)
+                movement.enabled = false;
+
+            GameManager.Instance.LoadSceneWithMessage(
+                "Scene_1", 
+                "You were caught!\nGame Over..."
+            );
+        }
+    }
 }

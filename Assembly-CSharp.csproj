@@ -64,6 +64,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Epic Adventure Orchestral Background Music\EpicAdventureAdaptiveMusic.cs" />
     <Compile Include="Assets\Week 3\Island\Scripts\FixedTiling.cs" />
     <Compile Include="Assets\Week 4\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Week 5\Scripts\CameraController.cs" />
@@ -93,6 +94,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Epic Adventure Orchestral Background Music\README FIRST.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />

@@ -7,15 +7,15 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    public string startScene = "Scene_1";
-    public string loadScene = "Scene_2";
+    [Header("Scenes")]
+    [SerializeField] private string startScene = "Scene_1";
 
-    [Header("UI")]
-    public GameObject blackScreen;
-    public TMP_Text messageText;
-    public float transitionDuration = 5f;
+    [Header("Fade UI (Child of GameManager)")]
+    [SerializeField] private GameObject fadeScreen;
+    [SerializeField] private TMP_Text messageText;
+    [SerializeField] private float transitionDuration = 3f;
 
-    void Awake()
+    private void Awake()
     {
         if (Instance != null && Instance != this)
         {
@@ -26,19 +26,9 @@ public class GameManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
-        SceneManager.sceneLoaded += OnSceneLoaded;
-    }
-
-    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        // Automatically find UI in the new scene
-        blackScreen = GameObject.Find("FadeScreen");
-
-        if (blackScreen != null)
-        {
-            messageText = blackScreen.GetComponentInChildren<TMP_Text>();
-            blackScreen.SetActive(false);
-        }
+        // Make sure fade starts hidden
+        if (fadeScreen != null)
+            fadeScreen.SetActive(false);
     }
 
     public void StartGame()
@@ -46,26 +36,28 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(startScene);
     }
 
-    public void PlayerReachedGoal(string message, string loadScene)
+    public void LoadSceneWithMessage(string sceneName, string message)
     {
-        StartCoroutine(TransitionToLoadScene(message, loadScene));
+        StartCoroutine(Transition(sceneName, message));
     }
 
-    IEnumerator TransitionToLoadScene(string message, string loadScene)
+    private IEnumerator Transition(string sceneName, string message)
     {
-        if (blackScreen != null)
+        if (fadeScreen != null)
         {
-            blackScreen.SetActive(true);
-            messageText.text = message;
+            fadeScreen.SetActive(true);
+
+            if (messageText != null)
+                messageText.text = message;
         }
 
         yield return new WaitForSeconds(transitionDuration);
 
-        SceneManager.LoadScene(loadScene);
+        SceneManager.LoadScene(sceneName);
 
         yield return null;
 
-        if (blackScreen != null)
-            blackScreen.SetActive(false);
+        if (fadeScreen != null)
+            fadeScreen.SetActive(false);
     }
 }

@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [Header("Movement")]
+    [Header("Movement Settings")]
     public float speed = 6f;
     public float jumpHeight = 2f;
     public float gravity = -9.81f;
@@ -14,40 +14,41 @@ public class PlayerMovement : MonoBehaviour
 
     private CharacterController controller;
     private Animator animator;
-
     private Vector3 velocity;
     private bool isGrounded;
+
+    [Header("Goal Settings")]
+    [SerializeField] private string nextScene = "Scene_2";
+    [SerializeField] private string goalMessage = "You have escaped Level 1!\nCongrats!";
 
     void Start()
     {
         controller = GetComponent<CharacterController>();
         animator = GetComponentInChildren<Animator>();
 
-        Debug.Log(animator);
-        
-        // Auto-assign camera if not set in Inspector
+        // Auto-assign camera if not set
         if (cameraTransform == null && Camera.main != null)
             cameraTransform = Camera.main.transform;
 
-        // Start in Idle
-        animator.SetFloat("State", 0f);
+        // Start idle animation
+        if (animator != null)
+            animator.SetFloat("State", 0f);
     }
 
     void Update()
     {
-        // GROUND CHECK
+        if (!enabled) return; // Stop updates if movement disabled
+
+        // Ground check
         isGrounded = controller.isGrounded;
-
-        if (isGrounded && velocity.y < 0)
-        {
+        if (isGrounded && velocity.y < 0f)
             velocity.y = -2f;
-        }
 
-        // INPUT
+        // Input
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
-        // CAMERA RELATIVE MOVEMENT
+        // Camera-relative movement
         Vector3 move = Vector3.zero;
 
         if (cameraTransform != null)
@@ -65,60 +66,66 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            // Fallback movement if no camera
             move = new Vector3(x, 0f, z);
         }
 
-        move.Normalize(); 
-
+        move.Normalize();
         float moveAmount = new Vector2(x, z).magnitude;
 
-        // ANIMATION
-        if (moveAmount > 0.1f)
-        {
-            animator.SetFloat("State", 1f); // Running
-        }
-        else
-        {
-            animator.SetFloat("State", 0f); // Idle
-        }
+        // Animation
+        if (animator != null)
+            animator.SetFloat("State", moveAmount > 0.1f ? 1f : 0f);
 
-        // MOVE PLAYER
+        // Move player
         controller.Move(move * speed * Time.deltaTime);
 
-        // ROTATION
+        // Rotation
         if (moveAmount > 0.1f)
         {
             Quaternion targetRotation = Quaternion.LookRotation(move);
-            transform.rotation = Quaternion.Slerp(
-                transform.rotation,
-                targetRotation,
-                rotationSpeed * Time.deltaTime
-            );
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
         }
 
-        // JUMP
+        // Jump
         if (Input.GetButtonDown("Jump") && isGrounded)
-        {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-        }
 
-        // GRAVITY
+        // Apply gravity
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-    if (other.CompareTag("Goal"))
-    {
-        // Optional: stop player movement during transition
-        enabled = false;
+        // Goal 1: normal level completion
+        if (other.CompareTag("Goal"))
+        {
+            enabled = false;
 
-        GameManager.Instance.PlayerReachedGoal(
-            "You have escaped Level 1!\nLoading next level...",
-            GameManager.Instance.loadScene
-        );
-    }
+            if (GameManager.Instance != null)
+            {
+                GameManager.Instance.LoadSceneWithMessage(nextScene, goalMessage);
+            }
+            else
+            {
+                Debug.LogError("GameManager.Instance is null!");
+            }
+        }
+
+        // Goal2: escaped prison message, stay in current scene
+        if (other.CompareTag("Goal2"))
+        {
+            enabled = false;
+
+            if (GameManager.Instance != null)
+            {
+                string currentScene = SceneManager.GetActiveScene().name;
+                GameManager.Instance.LoadSceneWithMessage(currentScene, "You escaped the prison!\nWell done!");
+            }
+            else
+            {
+                Debug.LogError("GameManager.Instance is null!");
+            }
+        }
     }
 }
